@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@deno/mod.js';
+import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@v0.1.1-deno/mod.js';
 ```
 
 #### zscal.main( N, alpha, x, strideX )
@@ -188,7 +188,7 @@ import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@deno/mod.js';
-import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@deno/mod.js';
+import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@v0.1.1-deno/mod.js';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -256,7 +256,7 @@ import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@deno/mod.js';
-import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@deno/mod.js';
+import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@v0.1.1-deno/mod.js';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -338,7 +338,7 @@ import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.j
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@deno/mod.js';
-import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@deno/mod.js';
+import zscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zscal@v0.1.1-deno/mod.js';
 
 // Specify a vector length:
 var N = 5;
