@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-16)
+## Unreleased (2026-07-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5791dde`](https://github.com/stdlib-js/stdlib/commit/5791dde65a21b17fe40c7650a314c28922f1d62c) - **docs:** fix examples and descriptions [(#13601)](https://github.com/stdlib-js/stdlib/pull/13601) _(by Philipp Burckhardt)_
 -   [`94e67fd`](https://github.com/stdlib-js/stdlib/commit/94e67fd1ed8a206d4209c1071c378661cc9ab16b) - **build:** add scripts to insert license headers [(#13482)](https://github.com/stdlib-js/stdlib/pull/13482) _(by Prashant Kumar Yadav)_
 -   [`8ff59d6`](https://github.com/stdlib-js/stdlib/commit/8ff59d63eaa88d252f5404e3b3affdf5c66821d5) - **chore:** propagate `blas/*` JSDoc and `cscal` header fixes to siblings [(#12318)](https://github.com/stdlib-js/stdlib/pull/12318) _(by Philipp Burckhardt)_
 -   [`ee5eced`](https://github.com/stdlib-js/stdlib/commit/ee5eced0f709feb30aef70262e7bdf97e89910c2) - **docs:** improve doctests for complex number typed arrays in `blas/base/wasm` [(#11975)](https://github.com/stdlib-js/stdlib/pull/11975) _(by Karan Anand, Athan Reines)_
